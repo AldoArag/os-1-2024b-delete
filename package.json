@@ -1,0 +1,30 @@
+{
+    "name": "processes-prj",
+    "version": "1.0.0",
+    "description": "Proyecto final de procesos",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "start": "pr01 && pr02 && pr03",
+        "pr01": "node index.js 1",
+        "pr02": "node index.js 2",
+        "pr03": "node index.js 3",
+        "dev": "node --watch index.js 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AldoArag/os-1-2024b-delete.git"
+    },
+    "keywords": [
+        "operating",
+        "systems",
+        "processes",
+        "node"
+    ],
+    "author": "@AldoArag",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/AldoArag/os-1-2024b-delete/issues"
+    },
+    "homepage": "https://github.com/AldoArag/os-1-2024b-delete#readme"
+}
